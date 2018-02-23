@@ -1,0 +1,51 @@
+body{
+  margin: 0vw;
+  text-align: center;
+  background-color: yellowgreen;
+}
+h1{
+  background-color: black;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+
+li {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2vw;
+}
+li:nth-child(odd) {
+  background-color: yellow; 
+  }
+li:nth-child(even) { 
+  background-color:blue;
+ }
+ul{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+form{
+  margin-left: auto;
+  margin-right: auto;
+  width: 24vw;
+}
+
+form input[type=text] {
+  width: 300px;
+  display: block;
+}
+
+form input:not([type=text]) {
+  width: 150px;
+}
